@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28307.489
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30128.74
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GNU.Gettext", "GNU.Gettext\GNU.Gettext.csproj", "{6996D99C-2E0F-4EDA-9FF0-BB45F81EADC8}"
 EndProject
@@ -15,9 +15,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Examples.HelloForms", "Exam
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GNU.Gettext.Test", "GNU.Gettext.Test\GNU.Gettext.Test.csproj", "{40A18DF7-3926-4AC4-8726-581F5C39082D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GNU.Gettext.Xgettext", "GNU.Gettext.Xgettext\GNU.Gettext.Xgettext.csproj", "{69B39E65-093E-417A-BFC9-B1CF7B981680}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GNU.Gettext.WinForms", "GNU.Gettext.WinForms\GNU.Gettext.WinForms.csproj", "{A458C869-B3C4-4130-8D3F-00F44548DD5C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Core.GetText.Test", "Core.GetText.Test\Core.GetText.Test.csproj", "{4EE01CA3-B233-42B4-92EA-ACF9AE4E4C13}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Core.GetText.Extractor", "Core.GetText.Extractor\Core.GetText.Extractor.csproj", "{F29B96EA-E0DF-4BC1-B331-81CEFD564891}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -49,14 +51,18 @@ Global
 		{40A18DF7-3926-4AC4-8726-581F5C39082D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{40A18DF7-3926-4AC4-8726-581F5C39082D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{40A18DF7-3926-4AC4-8726-581F5C39082D}.Release|Any CPU.Build.0 = Release|Any CPU
-		{69B39E65-093E-417A-BFC9-B1CF7B981680}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{69B39E65-093E-417A-BFC9-B1CF7B981680}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{69B39E65-093E-417A-BFC9-B1CF7B981680}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{69B39E65-093E-417A-BFC9-B1CF7B981680}.Release|Any CPU.Build.0 = Release|Any CPU
 		{A458C869-B3C4-4130-8D3F-00F44548DD5C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{A458C869-B3C4-4130-8D3F-00F44548DD5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A458C869-B3C4-4130-8D3F-00F44548DD5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A458C869-B3C4-4130-8D3F-00F44548DD5C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4EE01CA3-B233-42B4-92EA-ACF9AE4E4C13}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4EE01CA3-B233-42B4-92EA-ACF9AE4E4C13}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4EE01CA3-B233-42B4-92EA-ACF9AE4E4C13}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4EE01CA3-B233-42B4-92EA-ACF9AE4E4C13}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F29B96EA-E0DF-4BC1-B331-81CEFD564891}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F29B96EA-E0DF-4BC1-B331-81CEFD564891}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F29B96EA-E0DF-4BC1-B331-81CEFD564891}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F29B96EA-E0DF-4BC1-B331-81CEFD564891}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

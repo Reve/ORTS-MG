@@ -258,7 +258,16 @@ namespace GNU.Gettext
 			validity = Validity.Unknown;
 			MarkOwnerDirty ();
 		}
-		
+
+		// Sets all translations.
+		public void SetTranslations(List<string> translations)
+		{
+			this.translations = translations;
+
+			validity = Validity.Unknown;
+			MarkOwnerDirty();
+		}
+
 		// gettext flags directly in string format. It may be
 		// either empty string or "#, fuzzy", "#, c-format",
 		// #, csharp-format" or others.

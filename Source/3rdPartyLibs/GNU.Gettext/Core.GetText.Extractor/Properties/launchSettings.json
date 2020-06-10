@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "Core.GetText.Extractor": {
+      "commandName": "Project",
+      "commandLineArgs": "-D c:\\storage\\Dev\\ORTS-MG\\Source\\Contrib -r -f -o c:\\Storage\\Dev\\ORTS-MG\\Source\\Contrib\\corexgettext.pot"
+    }
+  }
+}

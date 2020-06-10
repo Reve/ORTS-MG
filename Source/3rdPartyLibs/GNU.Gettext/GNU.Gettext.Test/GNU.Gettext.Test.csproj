@@ -66,7 +66,6 @@
     <Compile Include="MsgfmtTest.cs" />
     <Compile Include="GetoptTest.cs" />
     <Compile Include="Program.cs" />
-    <Compile Include="XgettextTest.cs" />
     <Compile Include="PluralFormsTest.cs" />
     <Compile Include="UtilsTest.cs" />
     <Compile Include="FormatValidatorTest.cs" />
@@ -85,10 +84,6 @@
     <ProjectReference Include="..\..\GNU.Getopt\GNU.Getopt.csproj">
       <Project>{24BE81B3-C22E-448B-A892-AAF95AB28747}</Project>
       <Name>GNU.Getopt</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\GNU.Gettext.Xgettext\GNU.Gettext.Xgettext.csproj">
-      <Project>{69B39E65-093E-417A-BFC9-B1CF7B981680}</Project>
-      <Name>GNU.Gettext.Xgettext</Name>
     </ProjectReference>
     <ProjectReference Include="..\GNU.Gettext.WinForms\GNU.Gettext.WinForms.csproj">
       <Project>{A458C869-B3C4-4130-8D3F-00F44548DD5C}</Project>
